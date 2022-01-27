@@ -6,8 +6,8 @@
 body {
   background: linear-gradient(
     180deg,
-    rgb(131, 96, 133) 50%,
-    rgb(43, 43, 43) 100%
+    rgb(131, 96, 133) 80%,
+    rgb(43, 43, 43) 110%
   );
   background-size: cover;
   height: 100%;
@@ -25,10 +25,9 @@ body {
 
 h2 {
   font-family: "cube";
-  font-size: 3rem;
   color: #412d5c;
   text-shadow: 2px 1px 5px white;
-  font-size: 20px;
+  font-size: 2rem;
   margin-left: 25px;
   margin-bottom: 35px;
 }
@@ -45,7 +44,7 @@ form {
 .submit {
   position: relative;
   border: 1px solid #412d5c;
-  width: 200px;
+  width: 330px;
 }
 
 .text-right,
@@ -97,8 +96,8 @@ input[type="password"] {
   color: #c6b2e1;
   font-family: "cube";
   transition: 0.5s;
-  width: 180px;
-  font-size: 8px;
+  width: 310px;
+  font-size: 15px;
 }
 
 input[type="submit"] {
@@ -108,7 +107,7 @@ input[type="submit"] {
   border: none;
   background-color: #c6b2e1;
   color: #6e4b9b;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: bold;
   cursor: pointer;
   font-family: "cube";
